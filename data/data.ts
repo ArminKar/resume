@@ -89,8 +89,11 @@ const Resume: IResume = {
         { name: 'CSS3', icon: 'https://cdn.svgporn.com/logos/css-3.svg'},
     ],
     projects: [
-        { name: 'd16ope on vanilla', icon: 'https://cdn.svgporn.com/logos/javascript.svg', link: 'https://arminkar.github.io/vanilla-e-shop'},
-        { name: 'd16ope on Reactjs', icon: 'https://cdn.svgporn.com/logos/react.svg', link: 'https://ecoreact-mbp2i0uti-arminkar.vercel.app'},
+        { name: 'd16ope on Vanilla', icon: 'https://cdn.svgporn.com/logos/javascript.svg', link: 'https://arminkar.github.io/vanilla-e-shop'},
+        { name: 'd16ope on Reactjs', icon: 'https://cdn.svgporn.com/logos/react.svg', link: 'https://ecoreact.vercel.app/'},
+        { name: 'Random Quote Machine', icon: 'https://cdn.svgporn.com/logos/javascript.svg', link: 'https://codepen.io/arminas-karinauskis/full/ZEaOgjQ'},
+        { name: 'Calculator', icon: 'https://cdn.svgporn.com/logos/javascript.svg', link: 'https://codepen.io/arminas-karinauskis/full/gOogRKX'},
+        { name: 'Drum Machine', icon: 'https://cdn.svgporn.com/logos/javascript.svg', link: 'https://codepen.io/arminas-karinauskis/full/poOzENP'},
     ],
     languages: [
         {
