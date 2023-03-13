@@ -12,6 +12,7 @@ const Languages = ({ data }: LanguagesProps) => {
                 {
                     data.map((language, index) => (
                         <div key={`language_${index}`} className="Languages-language">
+                            <img src={language.icon} />
                             <h6 className="Languages-language-name">{language.name}</h6>
                             <span className="Languages-language-level">{language.level}</span>
                         </div>
@@ -22,13 +23,16 @@ const Languages = ({ data }: LanguagesProps) => {
                 {`
                     .Languages {
                         display: flex;
-                        flex-direction: column;    
-                        border-bottom: 1px solid rgba(200,200,200, .2);
+                        flex-direction: column;
                         padding: 0 1rem;
                         padding-bottom: 3rem;
                     }
                     .Languages-language{
                         margin: .5rem 0;
+                    }
+                    .Languages-language img{
+                        width: 20px;
+                        margin-right: .5rem;
                     }
                 `}
             </style>

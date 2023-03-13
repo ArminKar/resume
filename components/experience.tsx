@@ -32,7 +32,6 @@ const Experience = ({ data }: ExperienceProps) => {
                         display: flex;
                         flex-direction: column;
                         padding: 3rem 0;
-                        border-bottom: 1px solid rgba(200,200,200, .2);
                     }
                     .Experience-work:first-child{
                         padding-top: 0;

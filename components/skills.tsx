@@ -21,7 +21,6 @@ const Skills = ({ data }: SkillsProps) => {
                     .Skills {
                         display: flex;
                         flex-direction: column;
-                        border-bottom: 1px solid rgba(200,200,200, .2);
                         padding: 0 1rem;
                         padding-bottom: 3rem;
                     }

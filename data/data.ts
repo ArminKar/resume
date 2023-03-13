@@ -32,6 +32,7 @@ export interface IProject {
 
 export interface ILanguage {
     name: string;
+    icon: string;
     level: string;
 }
 
@@ -76,7 +77,7 @@ const Resume: IResume = {
         { name: 'FreeCodeCamp.org', logo: './images/freecodecamp.jpg', title: 'Responsive Web Design', duration: '2022' },
         { name: 'bfw - unternehmen für Bildung', logo:'./images/bfw.png', title: 'BKM Module', duration: '2020-2021'},
         { name: 'Kolping College', logo:'./images/kolping.jfif', title: 'Ecotourism', duration: '2015-2016' },
-        { name: 'Lieporiu Gymnasium', logo: './images/gymnasium.png', title: 'Maturity Certificate', duration: '2013-2015' },
+        { name: 'Lieporiu Gymnasium', logo: './images/Gymnasium.png', title: 'Maturity Certificate', duration: '2013-2015' },
     ],
     skills: [
         { name: 'Javascript', icon: 'https://cdn.svgporn.com/logos/javascript.svg'},
@@ -98,23 +99,27 @@ const Resume: IResume = {
     languages: [
         {
             name: 'English',
+            icon: 'https://www.onlygfx.com/wp-content/uploads/2022/03/flag-of-top-countries-round-3d-button-2.png',
             level: 'Full Professional Working Proficiency'
         },
         {
             name: 'Lithuanian',
+            icon: 'https://www.onlygfx.com/wp-content/uploads/2022/03/flag-of-eu-countries-round-3d-button-15.png',
             level: 'Native Proficiency'
         },
         {
             name: 'German',
+            icon: 'https://www.onlygfx.com/wp-content/uploads/2022/03/flag-of-eu-countries-round-3d-button-set-two-7.png',
             level: 'Limited Working Proficiency'
         },
         {
             name:'Russian',
+            icon: 'https://www.onlygfx.com/wp-content/uploads/2022/03/flag-of-top-countries-round-3d-button-7.png',
             level: 'Limited Working Proficiency'
         }
     ],
     socials: [
-        { name: 'Linkedin', icon: './images/linkedin.png', link: 'https://www.linkedin.com/in/arminas-karinauskis-988674230/' },
+        { name: 'Linkedin', icon: 'https://cdn.svgporn.com/logos/linkedin-icon.svg', link: 'https://www.linkedin.com/in/arminas-karinauskis-988674230/' },
         { name: 'Github', icon: 'https://cdn.svgporn.com/logos/github-icon.svg', link: 'https://github.com/ArminKar' },
         { name: 'Karinauskis@gmail.com', icon: 'https://cdn.svgporn.com/logos/google-gmail.svg', link: 'mailto:karinauskis@gmail.com' },
         { name: 'Facebook', icon: 'https://cdn.svgporn.com/logos/facebook.svg', link: 'https://www.facebook.com/arminas.karinauskis' },
