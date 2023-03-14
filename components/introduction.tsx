@@ -26,6 +26,7 @@ const Introduction = ({ data }: IntroductionProps) => {
                         padding: 3rem 0;
                         margin: 0 1rem;
                     }
+
                     .Introduction-avatar {
                         width: 200px;
                         height: 200px;
@@ -33,17 +34,48 @@ const Introduction = ({ data }: IntroductionProps) => {
                         border-radius: %;
                         margin: auto;
                     }
-                    .Introduction-wrapper{
+
+                    .Introduction-wrapper {
                         padding: 1rem 2rem;
                         flex: 1 350px;
                     }
-                    .Introduction-name{
+
+                    .Introduction-name {
                         font-size: 3rem;
                     }
-                    .Introduction-title{
+
+                    .Introduction-title {
                         font-size: 1.2rem;
                         margin-top: .5rem;
-                    }                    
+                    }
+                    
+                    @media (max-width: 768px) {
+                        .Introduction {
+                            flex-direction: column;
+                            align-items: center;
+                            padding: 2rem 0;
+                        }
+            
+                        .Introduction-avatar {
+                            margin-bottom: 2rem;
+                            padding: 0;
+                        }
+            
+                        .Introduction-wrapper {
+                            text-align: center;
+                            padding: 0 1rem;
+                        }
+            
+                        .Introduction-name {
+                            font-size: 2rem;
+                            margin-bottom: .5rem;
+                        }
+            
+                        .Introduction-title {
+                            font-size: 1rem;
+                            margin-top: 0;
+                        }
+                    }      
                 `}
             </style>
         </>

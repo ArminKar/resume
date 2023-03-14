@@ -26,12 +26,20 @@ const Projects = ({ data }: Projectsprops) => {
                         padding: 0 1rem;
                         padding-bottom: 3rem;
                     }
-                    .Projects-project{
+
+                    .Projects-project {
                         margin: .5rem 0;
                     }
+
                     .Projects-project img{
                         width: 20px;
                         margin-right: .5rem;
+                    }
+                    
+                     @media only screen and (max-width: 768px) {
+                        .Projects-project img{
+                            width: 16px;
+                        }
                     }
                 `}
             </style>

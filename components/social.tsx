@@ -26,20 +26,27 @@ const Social = ({ data }: SocialProps) => {
                         padding: 0 1rem;
                         padding-bottom: 3rem;
                     }
-                    .Social-type{
+
+                    .Social-type {
                         display: flex;
                         align-items: center;
                         margin: .5rem 0;
                     }
 
-                    .Social-type img{
+                    .Social-type img {
                         width: 20px;
                         margin-right: .5rem;
                     }
 
-                    .Social-type a{
+                    .Social-type a {
                         text-decoration: none;
                         color: black;
+                    }
+
+                    @media only screen and (max-width: 768px) {
+                        .Social-type img {
+                            width: 16px;
+                        }
                     }
                 `}
             </style>

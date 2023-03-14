@@ -27,12 +27,33 @@ const Languages = ({ data }: LanguagesProps) => {
                         padding: 0 1rem;
                         padding-bottom: 3rem;
                     }
-                    .Languages-language{
+
+                    .Languages-language {
                         margin: .5rem 0;
                     }
-                    .Languages-language img{
+
+                    .Languages-language img {
                         width: 20px;
                         margin-right: .5rem;
+                    }
+                    
+                    @media only screen and (max-width: 768px) {
+                        .Languages-language img {
+                          width: 16px;
+                        }
+                      
+                        .Introduction {
+                          flex-direction: column;
+                          text-align: center;
+                        }
+                      
+                        .Introduction-avatar {
+                          margin-bottom: 1rem;
+                        }
+                      
+                        .Introduction-wrapper {
+                          padding: 1rem;
+                        }
                     }
                 `}
             </style>

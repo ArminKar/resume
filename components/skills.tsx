@@ -24,15 +24,22 @@ const Skills = ({ data }: SkillsProps) => {
                         padding: 0 1rem;
                         padding-bottom: 3rem;
                     }
-                    .Skills-skill{
+
+                    .Skills-skill {
                         display: flex;
                         align-items: center;
                         margin: .5rem 0;
                     }
 
-                    .Skills-skill img{
+                    .Skills-skill img {
                         width: 20px;
                         margin-right: .5rem;
+                    }
+
+                    @media only screen and (max-width: 768px) {
+                        .Skills-skill img {
+                            width: 16px;
+                        }
                     }
                 `}
             </style>

@@ -33,7 +33,7 @@ const Education = ({ data }: EducationProps) => {
                         padding: 0 1rem;
                     }
 
-                    .Education-entity{
+                    .Education-entity {
                         margin: 1rem 0;
                     }
 
@@ -61,6 +61,25 @@ const Education = ({ data }: EducationProps) => {
                         opacity: .8;
                         font-size: .8rem;
                         align-self: flex-end;
+                    }
+
+                    @media (max-width: 767px) {
+                        .Education-entity-place {
+                            flex-wrap: wrap;
+                        }
+            
+                        .Education-entity img {
+                            max-height: 30px;
+                            max-width: 60px;
+                        }
+
+                        .Education-entity-details {
+                            margin-top: .5rem;
+                        }
+                        
+                        .Education-entity-duration {
+                            align-self: flex-start;
+                        }
                     }
                 `}
             </style>

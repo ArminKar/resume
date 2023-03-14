@@ -28,14 +28,27 @@ const Experience = ({ data }: ExperienceProps) => {
                         flex-direction: column;    
                         padding: 0 1rem;
                     }
+
                     .Experience-work {
                         display: flex;
                         flex-direction: column;
                         padding: 3rem 0;
                     }
-                    .Experience-work:first-child{
+
+                    .Experience-work:first-child {
                         padding-top: 0;
 
+                    }
+            
+                    @media (max-width: 767px) {
+                        .Experience-work-description {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        .Experience-work-description li {
+                            margin-bottom: 0.5rem;
+                        }
                     }
                 `}
             </style>
